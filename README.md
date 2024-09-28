@@ -23,3 +23,20 @@ This project aims to empower visually impaired individuals by providing them wit
 * Image Capture: The Raspberry Pi camera module captures live video frames.
 * Object Detection: Each frame is processed using a TensorFlow Lite model that identifies various objects.
 * Voice Output: The identified objects are converted into speech using a text-to-speech engine, providing users with immediate feedback about their surroundings.
+
+```pycon
+    if detection_result_list:
+        for result in detection_result_list:
+            for detection in result.detections:
+                for category in detection.categories:
+                    
+                
+
+                    print(f" Category Name - {category.category_name}")
+
+
+                    engine.say(category.category_name)
+                    engine.runAndWait()
+                    engine.stop()
+                    time.sleep(1)
+```
