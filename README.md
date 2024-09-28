@@ -4,6 +4,9 @@
 
 This project aims to empower visually impaired individuals by providing them with a voice-enabled assistant that can identify and describe objects in their surroundings. Utilizing TensorFlow Lite, Python, and Raspberry Pi, this solution leverages image classification techniques to deliver real-time feedback, enhancing the independence and mobility of users.
 
+![WhatsApp Image 2024-07-25 at 815](https://github.com/user-attachments/assets/1e3aa03a-0419-4475-b3ff-fbcc8e284ebc)
+
+
 # Features
 
 * Image Classification : Utilizes pre-trained models to classify objects in real-time through the camera.
@@ -19,6 +22,8 @@ This project aims to empower visually impaired individuals by providing them wit
 * OpenCV: A library for image processing that helps in capturing and processing images from the camera.
 
 # How It Works
+
+![image(0)](https://github.com/user-attachments/assets/00fc3387-b7e8-49f3-b918-02ce4c283b76)
 
 * Image Capture: The Raspberry Pi camera module captures live video frames.
 * Object Detection: Each frame is processed using a TensorFlow Lite model that identifies various objects.
